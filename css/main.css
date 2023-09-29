@@ -1,0 +1,238 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+	body{
+		margin: 0;
+	}
+	
+	/* TEXT LINKS */
+	a{ text-decoration: none;}
+		
+		/* unvisited link */		
+		a:link {
+		  color: white;
+		}
+
+		/* visited link */
+		a:visited {
+		  color: white;
+		}
+
+		/* mouse over link */
+		a:hover {
+		  color: white;
+		}
+
+		/* selected link */
+		a:active {
+		  color: white;
+		}
+
+
+	
+	
+	.container{
+		width:80%;
+		margin: 0 auto;
+		max-width: 1128px;
+		margin-bottom: 2em;
+	
+	}
+	
+	
+
+	
+	
+	
+	.background-gray{
+		
+		background-color:rgb(247, 247, 247);
+		width:100%;
+		border-radius: 5px;
+		
+		
+	}
+	
+	.row{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:0;
+	
+	}
+	
+	.thumbnail{
+		max-width:100%;
+		
+		object-fit:cover;
+		margin: 2em;
+		box-shadow:3px 4px 7px rgb(104,107,105);
+		border-radius: 5px;
+		cursor: pointer;
+		transition: transform 0.3s; /* Add a smooth transition effect */
+		}
+	
+	.thumbnail:hover {
+    transform: scale(1.07); /* Scale the image up by 7% on hover */
+	}
+	
+	.thumbnail-column{
+		width: 55%;
+		display: flex;
+		justify-content: center; /* Center content horizontally */
+		align-items: center; /* Center content vertically */
+		
+		}
+	
+	.text-column{
+		width: 30%;
+		padding-right: 3em;
+		text-align: center;
+		
+		
+	}
+		
+	.title{
+		font-family: Inter;
+		font-size: 1.625rem;
+		font-weight: 600;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+
+	.subtitle{
+		font-family: Inter;
+		font-size: 1 rem;
+		font-weight: 400;
+		margin-bottom: 1em;
+		
+	}
+
+
+	.main-title {
+		  font-family: "Arial", sans-serif;
+		  font-size: 36px;
+		  color: #333;
+		  text-align: center;
+		  
+		  margin-bottom: 1.3em;
+		}
+
+			
+				/* Styles for paragraphs */
+		p{
+		  font-family: Inter, Arial;
+		  font-size: 16px;
+		  color: #333;
+		  margin-bottom: 20px;
+		}
+
+
+		
+		
+		h2{
+			font-family: Inter;
+		font-size: 1.625rem;
+		font-weight: 600;
+		text-align: center;
+		color: #777;
+		 margin-bottom: 1em;
+		  margin-top: 1.5em;
+		}
+		
+
+		/* Styles for additional subtitles */
+		h3 {
+		  font-family: "Arial", sans-serif;
+		  font-size: 18px;
+		  color: #555;
+		  margin-top: 10px;
+		  
+		}
+
+		h4{
+			font-family: "Arial", sans-serif;
+		  font-size: 16px;
+		  color: #555;
+		  margin-top: 10px;
+		}
+
+		li {
+		font-family: Inter, Arial;
+		font-size: 16px;
+		color: #333;
+		padding-bottom:8px;
+		 list-style-position: inside;
+		 list-style-type: disc;
+		}	
+	
+	
+	
+
+	.button1{
+	font-family: Inter;
+	font-size:12px;
+	background-color: rgb(191,196,244);
+	color: rgb(42,42,214);
+	border:none;
+	border-radius: 2px;
+	padding:5px;
+	font-weight: 500;
+	margin:0 0 1em 0;
+
+	}
+	
+	
+	
+
+
+
+
+	
+	
+	
+/*media for main section*/
+	
+	@media (max-width:800px) {
+		
+		.row{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			
+		}
+		
+		.thumbnail{
+			width: 100%;
+			margin: 0 auto;
+			margin-top: 1.5em;
+			
+		}
+		
+		.thumbnail-column{
+		 width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+		
+		.text-column{
+		width: 90%;
+		padding: 1em;
+		text-align: center;
+		margin-top: 1em;
+		
+	}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

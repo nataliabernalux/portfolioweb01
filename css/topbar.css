@@ -1,0 +1,129 @@
+
+	
+		
+		
+	header{
+		background-color: black;
+		color: white;
+		border-bottom-width:1px;
+		border-bottom-style: solid;
+		border-bottom-color: rgb(122, 64, 255);
+		padding: 1em 0;
+	}
+	
+	
+	
+	.nav__container{
+		width:80%;
+		margin: 0 auto;
+		max-width: 1128px;
+	}
+	
+	.nav__name{
+		font-family: Inter;
+		font-weight: 300;
+		font-size: 22px;
+		color: white;
+	}
+	
+	.nav{
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	
+	.nav__list{
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		
+	}
+	
+	.nav__link{
+		text-decoration: none;
+	}
+	
+	.nav__item + .nav__item{
+		margin-left: 1em;
+	}
+	
+
+
+
+
+/* Style for the hamburger icon */
+.hamburger {
+  display: none; /* Initially hide the hamburger icon */
+  width: 30px;
+  height: 3px;
+  background-color: #008C8E;
+  margin: 6px auto;
+  transition: 0.4s;
+  z-index: 999;
+}
+
+/* Style for the "open" and "close" states of the hamburger menu */
+.nav--visible .hamburger {
+  background-color: transparent;
+  transform: rotate(-45deg);
+}
+
+.nav--visible .hamburger:before,
+.nav--visible .hamburger:after {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+
+
+
+
+/* media for the header */
+@media screen and (max-width: 800px) {
+	
+	.nav {
+    display: none; /* Hide the navigation menu by default on small screens */
+    text-align: center;
+  }
+
+  .nav--visible {
+    display: block; /* Show the navigation menu when the "nav--visible" class is added */
+  }
+
+  .nav__list {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .nav__item {
+    display: block;
+    margin: 0;
+  }
+
+  .nav__link {
+    display: inline-block;
+    margin: 0;
+    color: #F0EAD9;
+  }
+
+  .hamburger {
+    display: block; /* Display the hamburger icon for screens <= 800px */
+  }
+
+  .nav-toggle {
+    display: none; /* Hide the regular navigation toggle for screens <= 800px */
+  }
+}
+
+/* media for the header, small screen size */
+@media screen and (min-width: 801px) {
+  .hamburger {
+    display: none;
+  }
+  
+  .nav-toggle {
+    display: none;
+  }
+}

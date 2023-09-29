@@ -1,0 +1,376 @@
+
+		
+	
+								
+			.hero {
+		  position: relative;
+		  height: 650px;
+		  overflow: hidden;
+		}
+
+		.main-image {
+		  position: absolute;
+		  top: 0;
+		  left: 0;
+		  width: 100%;
+		  height: 100%;
+		  object-fit: cover;
+		  object-position: top;
+		  z-index:20;
+		}
+		
+		
+		
+		.Overlay-phones{
+			position:absolute;
+			top:32%;
+			left:36%;	
+			overflow: hidden;
+			
+			z-index:30;
+		}
+		
+		
+		.overlay-image {
+		  
+		  width: 170px; /* Adjust as needed */
+		  height: 340px; /* Adjust as needed */
+		  object-fit: cover;
+		  
+		}
+		
+		.overlay-image:nth-child(1) {
+			
+			padding-right: 20px;
+			padding-bottom:30px;
+			
+		}
+		
+		
+		
+		
+		
+		
+		  .wrapper {
+		  width: 80%;  
+          max-width: 1128px;
+          margin: 0 auto;
+		  padding: 2em 0;
+		  box-sizing: border-box;
+        }
+		
+				
+		.title-container {
+		  display: flex;
+		  flex-direction: column;
+		  align-items: center;
+		  justify-content: center;
+		  height: 17em; /* Adjust as needed */
+		}
+		
+		.title-container h1{
+			margin-bottom: 0;
+		}
+		
+		
+		.project-details{
+			margin-bottom: 5em;
+		}
+		
+		.row{
+			display:flex;
+			padding: 2em 0;
+			
+			justify-content: space-between;
+		}
+		
+		.three-col{
+			display: flex;
+			
+		}
+		
+		.personas-row{
+			align-items:center;
+			
+		}
+		
+		.col{
+			width:100%;
+		}
+		
+		.col + .col {
+			margin-left: 2.5em;
+			
+		}
+		.problem-subtitle{
+			text-align: center;
+		}
+		
+		
+		.research-section{
+			background-color: rgb(238,238,238);
+			margin: 3.125em 0;
+			padding: 5em 0;
+			
+		}
+		
+		
+		.research-box{
+			
+			display:flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		
+		.research-col{
+			width: 100%;
+		}
+		
+		.research-col + .research-col{
+			margin-left: 2em;
+		}
+		
+		.number-box {
+			flex: 1;
+		    display: flex;
+		    justify-content: center;
+		    align-items: center;
+         }
+		
+		
+		.number{
+			width:50px;
+			height:50px;
+			background-color: rgb(165,6,6);
+			border-radius: 50%;
+			margin-bottom: 20px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: white;
+			font-weight: bold;
+			font-size: 24px;
+			
+		}
+		
+		.personas-section{
+			margin-top: 3.75em;
+		}
+		
+		
+		
+		
+		
+		.personas-left-section, .personas-middle-section, .personas-right-section {
+			
+			border-radius: 20px;
+			background-color: rgb(255,204,203);
+			padding:1.25em;
+			margin-bottom:2em;
+
+		}
+		
+		
+		
+		}
+		
+		.emily-image {
+			width: 250px;
+			height: 250px;
+			object-fit: cover;
+			
+		}
+		
+		
+		
+		
+		.frustrations, .goals {
+			margin-bottom: 10px;
+			text-align: center;
+		}
+		
+		
+		.john-image {
+			width: 250px;
+			height: 250px;
+			object-fit: cover;
+		}
+		
+		
+		.user-journey-map-section{
+			background-color: rgb(238,238,238);
+			padding: 3em 0;
+			
+		}
+		
+		
+		.user-journey-bike{
+			width: 95%;
+			padding-top:2em;
+		}
+		
+		
+		.low-fid-section{
+			background-color: rgb(165,6,6);
+			padding: 3em 0;
+		}
+		
+		.low-fid-section h1{
+			color: white;
+		}
+		
+		.low-fid-section p{
+			color: white;
+			padding-bottom:4em;
+		}
+		
+		
+		.lowfi-button{
+			text-align: center;
+		}
+		
+		.lowfi-button-style{
+			font-family: "Arial", sans-serif;
+			background-color:black;
+			color: white;
+			padding: 1em;
+			border-radius: 100px;
+			border-style: none;
+		}
+		
+		.low-fid-img{
+			width: 100%;
+			margin-top:2em;
+			
+		}
+		
+		.insights-box{
+			color:white;
+			background-color: black;
+			padding: .5em;
+			border-radius: .5em;
+			margin-bottom: 3em;
+		}
+		
+		.insights-box p{
+			color:white;
+		}
+		
+		.img{
+			max-width:100%;
+		}
+		
+		.usability-study-low-fid-section{
+			padding: 4em 0;
+		}
+		
+		.high-fid-section{
+			background-color: black;
+			padding: 3em 0;
+		}
+		
+		.high-fid-section p, h1{
+			color: white;
+		}
+		
+		.high-fid-section h1{
+			color: white;
+		}
+		
+		.highfi-button{
+			text-align: center;
+			margin-top: 4em;
+			margin-bottom: 2em;
+			
+		}
+		
+		.highfi-button-style{
+			font-family: "Arial", sans-serif;
+			background-color: rgb(165,6,6);
+			color: white;
+			padding: 1em;
+			border-radius: 100px;
+			border-style: none;
+			
+		}
+		
+		.usability-study-high-fid-section{
+			padding: 4em 0;
+			background-color: rgb(250,250,250);
+		}
+		
+		.usability-study-high-fid-section h2{
+			padding-top: 2em;
+			text-align:center;
+		}
+		
+		
+		.align-center{
+			text-align:center;
+			margin-top:3em;
+		}
+		
+		
+		.accessibility-section{
+			padding: 4em 0;
+			background-color: rgb(255,240,235);
+		}
+		
+		.two-col{
+			display: flex;
+		}
+		
+		.go-to-top-btn{
+			text-align: center;
+			margin-top: 2em;
+		}
+		
+		
+		.go-to-top-btn-style{
+			font-family: "Arial", sans-serif;
+			background-color:black;
+			color: white;
+			padding: 1em;
+			border-radius: 100px;
+			border-style: none;
+			
+		}
+		
+		
+		
+		
+		@media(max-width: 800px){
+			
+			.research-box,
+			.number-box,
+			.row{
+				display: block;
+				
+			}
+			
+			.three-col,
+			.two-col{
+			display: block;
+			
+		}
+			
+			.col + .col{
+				margin-left:0;
+				margin-top: 1em;
+			}
+		
+		
+		
+		
+			.research-col + .research-col{
+			margin-left:0;
+			margin-top: 0em; /* fix to a smaller padding or margin*/
+		}
+		
+			.img{
+				width:100%;
+			}
+		
+		
+		
+		}
